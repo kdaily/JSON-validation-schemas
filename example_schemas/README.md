@@ -7,7 +7,9 @@ These are schemas that I used to figure out how JSON validation schemas work.
 This is as basic as it gets. This was just for me to get in my mind how a validation schema works.
 
 Test files:
+
 test1_demo1.json
+
 test1_demo2.json
 
 
@@ -16,8 +18,11 @@ test1_demo2.json
 Here I'm introducing the "if"/"then" statement.
 
 Test files:
+
 test2_demo1.json
+
 test2_demo2.json
+
 test2_demo3.json
 
 
