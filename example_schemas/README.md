@@ -2,7 +2,7 @@
 
 These are schemas that I used to figure out how JSON validation schemas work.
 
-## test1_validator_schema.json
+### test1_validator_schema.json
 
 This is as basic as it gets. This was just for me to get in my mind how a validation schema works.
 
@@ -11,7 +11,7 @@ test1_demo1.json
 test1_demo2.json
 
 
-## test2_validator_schema.json
+### test2_validator_schema.json
 
 Here I'm introducing the "if"/"then" statement.
 
@@ -21,7 +21,7 @@ test2_demo2.json
 test2_demo3.json
 
 
-## test3_validator_schema.json
+### test3_validator_schema.json
 
 Here I'm introducing a compound "if" statement; in other words, "if condition1 and condition2 then..."
 
@@ -31,7 +31,7 @@ test3_demo2.json
 test3_demo3.json
 
 
-## test4_validator_schema.json
+### test4_validator_schema.json
 
 Another compound "if" statement, except this time I'm negating one of the conditions.
 
