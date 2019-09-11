@@ -315,7 +315,7 @@
                 "const": "Human"
               },
 	      "dementia": {
-                "const": "T"
+                "const": "True"
               }
             },
             "required": ["dementia"]
@@ -355,7 +355,7 @@
                 "const": "Human"
               },
               "postmortem": {
-                "const": "T"
+                "const": "True"
               }
             },
 	    "required": ["postmortem"]
@@ -371,7 +371,7 @@
       "if": {
         "properties": {
           "postmortem": {
-            "const": "T"
+            "const": "True"
           }
         }
       },
