@@ -159,7 +159,7 @@
       "$ref": "experimentalData.json#/definitions/assay"
     },
     "assayTarget": {
-      "$ref": "experimentalData.json#/definitions/assayTarget"
+       "$ref": "experimentalData.json#/definitions/assayTarget"
     },
     "libraryID": {
       "$ref": "clinicalData.json#/definitions/libraryID"
