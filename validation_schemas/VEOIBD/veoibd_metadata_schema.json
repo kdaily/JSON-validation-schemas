@@ -110,19 +110,7 @@
         }
       },
       "then": {
-        "required": ["firstDegree", "SecondDegreePlus"]
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "smokingHistory": {
-            "const": "True"
-          }
-        }
-      },
-      "then": {
-        "required": ["smokingYears", "smokePerDay"]
+        "required": ["firstDegree"]
       }
     }
   ]
