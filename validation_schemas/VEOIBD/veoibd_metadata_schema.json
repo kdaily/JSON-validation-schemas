@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/veoibd_schema.json",
+  "title": "clinical data manifest schema",
+  "description": "Validates clinical data manifests provided by VEOIBD consortium members",
+  "type": "object",
+  "properties": {
+    "individualID": {
+      "$ref": "experimentalData.json#/definitions/individualID"
+    },
+    "sex": {
+      "$ref": "experimentalData.json#/definitions/sex"
+    },
+    "ageDxYears": {
+      "$ref": "clinicalData.json#/definitions/ageDxYears"
+    },
+    "ancestryJewish": {
+      "$ref": "clinicalData.json#/definitions/ancestryJewish"
+    },
+    "perianalInvolvement": {
+      "$ref": "clinicalData.json#/definitions/perianalInvolvement"
+    },
+    "diseaseBehaviorStricturing": {
+      "$ref": "clinicalData.json#/definitions/diseaseBehaviorStricturing"
+    },
+    "breastFed": {
+      "$ref": "clinicalData.json#/definitions/breastFed"
+    },
+    "familyHistory": {
+      "$ref": "clinicalData.json#/definitions/familyHistory"
+    },
+    "firstDegree": {
+      "$ref": "clinicalData.json#/definitions/firstDegree"
+    },
+    "secondDegreePlus": {
+      "$ref": "clinicalData.json#/definitions/secondDegree"
+    },
+    "smokingHistory": {
+      "$ref": "clinicalData.json#/definitions/smokingHistory"
+    },
+    "smokingYears": {
+      "$ref": "clinicalData.json#/definitions/smokingYears"
+    },
+    "smokePerDay": {
+      "$ref": "clinicalData.json#/definitions/smokePerDay"
+    },
+    "householdSmokingHistory": {
+      "$ref": "clinicalData.json#/definitions/householdSmokingHistory"
+    },
+    "maternalSmokingHistory": {
+      "$ref": "clinicalData.json#/definitions/maternalSmokingHistory"
+    },
+    "consanguinity": {
+      "$ref": "clinicalData.json#/definitions/consanguinity"
+    },
+    "countryOfOrigin": {
+      "$ref": "clinicalData.json#/definitions/countryOfOrigin"
+    },
+    "ethnicity": {
+      "$ref": "clinicalData.json#/definitions/ethnicity"
+    },
+    "diagnosisPhenotype": {
+      "$ref": "clinicalData.json#/definitions/diagnosisPhenotype"
+    },
+    "diseaseLocation": {
+      "$ref": "clinicalData.json#/definitions/diseaseLocation"
+    },
+    "otherDiagnosis": {
+      "$ref": "clinicalData.json#/definitions/otherDiagnosis"
+    },
+    "medicationAtDx": {
+      "$ref": "clinicalData.json#/definitions/medicationAtDx"
+    },
+    "EIM": {
+      "$ref": "clinicalData.json#/definitions/EIM"
+    },
+    "surgicalHistory": {
+      "$ref": "clinicalData.json#/definitions/surgicalHistory"
+    }
+  },
+  "required": [
+    "individualID",
+    "sex",
+    "ageDxYears",
+    "ancestryJewish",
+    "perianalInvolvement",
+    "diseaseBehaviorStricturing",
+    "breastFed",
+    "familyHistory",
+    "smokingHistory",
+    "householdSmokingHistory",
+    "maternalSmokingHistory",
+    "consanguinity",
+    "countryOfOrigin",
+    "ethnicity",
+    "diagnosisPhenotype",
+    "diseaseLocation",
+    "otherDiagnosis",
+    "medicationAtDx",
+    "EIM",
+    "surgicalHistory"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "familyHistory": {
+            "const": "True"
+          }
+        }
+      },
+      "then": {
+        "required": ["firstDegree", "SecondDegreePlus"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "smokingHistory": {
+            "const": "True"
+          }
+        }
+      },
+      "then": {
+        "required": ["smokingYears", "smokePerDay"]
+      }
+    }
+  ]
+}
