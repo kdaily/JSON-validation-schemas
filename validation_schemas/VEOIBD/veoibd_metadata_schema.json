@@ -6,76 +6,76 @@
   "type": "object",
   "properties": {
     "individualID": {
-      "$ref": "experimentalData.json#/definitions/individualID"
+      "$ref": "https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/schemaorg-conversion/synapseAnnotations/data/json-schemas-from-original/definitions/experimentalData.json#/definitions/individualID"
     },
     "sex": {
-      "$ref": "experimentalData.json#/definitions/sex"
+      "$ref": "https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/schemaorg-conversion/synapseAnnotations/data/json-schemas-from-original/definitions/experimentalData.json#/definitions/sex"
     },
     "ageDxYears": {
-      "$ref": "clinicalData.json#/definitions/ageDxYears"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/ageDxYears"
     },
     "ancestryJewish": {
-      "$ref": "clinicalData.json#/definitions/ancestryJewish"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/ancestryJewish"
     },
     "perianalInvolvement": {
-      "$ref": "clinicalData.json#/definitions/perianalInvolvement"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/perianalInvolvement"
     },
     "diseaseBehaviorStricturing": {
-      "$ref": "clinicalData.json#/definitions/diseaseBehaviorStricturing"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/diseaseBehaviorStricturing"
     },
     "breastFed": {
-      "$ref": "clinicalData.json#/definitions/breastFed"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/breastFed"
     },
     "familyHistory": {
-      "$ref": "clinicalData.json#/definitions/familyHistory"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/familyHistory"
     },
     "firstDegree": {
-      "$ref": "clinicalData.json#/definitions/firstDegree"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/firstDegree"
     },
     "secondDegreePlus": {
-      "$ref": "clinicalData.json#/definitions/secondDegree"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/secondDegree"
     },
     "smokingHistory": {
-      "$ref": "clinicalData.json#/definitions/smokingHistory"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/smokingHistory"
     },
     "smokingYears": {
-      "$ref": "clinicalData.json#/definitions/smokingYears"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/smokingYears"
     },
     "smokePerDay": {
-      "$ref": "clinicalData.json#/definitions/smokePerDay"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/smokePerDay"
     },
     "householdSmokingHistory": {
-      "$ref": "clinicalData.json#/definitions/householdSmokingHistory"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/householdSmokingHistory"
     },
     "maternalSmokingHistory": {
-      "$ref": "clinicalData.json#/definitions/maternalSmokingHistory"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/maternalSmokingHistory"
     },
     "consanguinity": {
-      "$ref": "clinicalData.json#/definitions/consanguinity"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/consanguinity"
     },
     "countryOfOrigin": {
-      "$ref": "clinicalData.json#/definitions/countryOfOrigin"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/countryOfOrigin"
     },
     "ethnicity": {
-      "$ref": "clinicalData.json#/definitions/ethnicity"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/ethnicity"
     },
     "diagnosisPhenotype": {
-      "$ref": "clinicalData.json#/definitions/diagnosisPhenotype"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/diagnosisPhenotype"
     },
     "diseaseLocation": {
-      "$ref": "clinicalData.json#/definitions/diseaseLocation"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/diseaseLocation"
     },
     "otherDiagnosis": {
-      "$ref": "clinicalData.json#/definitions/otherDiagnosis"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/otherDiagnosis"
     },
     "medicationAtDx": {
-      "$ref": "clinicalData.json#/definitions/medicationAtDx"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/medicationAtDx"
     },
     "EIM": {
-      "$ref": "clinicalData.json#/definitions/EIM"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/EIM"
     },
     "surgicalHistory": {
-      "$ref": "clinicalData.json#/definitions/surgicalHistory"
+      "$ref": "https://raw.githubusercontent.com/cw-dvr8/JSON-validation-schemas/master/validation_schemas/reference_definitions/clinicalData.json#/definitions/surgicalHistory"
     }
   },
   "required": [
